@@ -11,24 +11,24 @@ export default function Dashboard() {
         <div className="p-4  rounded-lg dark:border-gray-700">
           <div className="grid grid-cols-3 gap-4 mb-4">
             <div className="block max-w p-6 bg-gradient-120 from-[#18A6F5] to-[#4D43D6] border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
-              <div className=" pb-2 font-bold text-lg">
+              <div className=" pb-2 font-bold text-white text-lg">
                 Todays Active Appointment
               </div>
-              <div className=" pb-2 font-bold text-5xl">30</div>
+              <div className=" pb-2 font-bold text-white text-5xl">30</div>
             </div>
 
             <div className="block max-w p-6 bg-gradient-120 from-[#F89833] to-[#F2614B] border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
-              <div className=" pb-2 font-bold text-lg">
+              <div className=" pb-2 font-bold text-white text-lg">
                 Todays Active Report
               </div>
-              <div className="pb-2 font-bold text-5xl">45</div>
+              <div className="pb-2 font-bold text-white text-5xl">45</div>
             </div>
 
             <div className="block max-w p-6 bg-gradient-120 from-[#7f18f5] to-[#d62ef8] border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
-              <div className=" pb-2 font-bold text-lg">
+              <div className=" pb-2 font-bold text-white text-lg">
                 Todays Active Surgery
               </div>
-              <div className="pb-2 font-bold text-5xl">15</div>
+              <div className="pb-2 font-bold text-white text-5xl">15</div>
             </div>
             <div className="col-span-3">
               <Card>
@@ -77,7 +77,7 @@ export default function Dashboard() {
               </Card>
             </div>
             <div className="col-span-2 ">
-              <List/>
+              <List />
             </div>
           </div>
         </div>
