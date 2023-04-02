@@ -49,18 +49,8 @@ export default function Dashboard() {
                           North South Medical,Dhaka
                         </div>
                         <span className="text-black mt-6  rounded-md bg-[#D3D9E0] px-2 py-1 min-w-min flex flex-col ">
-                          <table>
-                            <tr>
-                              <td className="text-black">Mobile:</td>
-                              <td className="text-black">01303679325</td>
-                            </tr>
-                            <tr>
-                              <td className="text-black">Email:</td>
-                              <td className="text-black">
-                                riderrifar@gmail.com
-                              </td>
-                            </tr>
-                          </table>
+                          Mobile : 01303679325 <br />
+                          Email : riderrifar@gmail.com
                         </span>
                       </div>
                     </div>
