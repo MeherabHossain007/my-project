@@ -5,16 +5,14 @@ import styles from "@/styles/Home.module.css";
 import NavBar from "@/layout/NavBar";
 import Dashboard from "./dashboard";
 import Header from "@/components/Header";
+import Login from "./login";
 
-const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
   return (
     <>
       <main>
-        <NavBar>
-          <Dashboard />
-        </NavBar>
+        <Login/>
       </main>
     </>
   );
